@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../src/assets/fonts/poppins-v24-latin-200.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/assets/fonts/poppins-v24-latin-regular.woff2') format('woff2');
+    }
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../src/assets/fonts/poppins-v24-latin-600.woff2') format('woff2');
+}
+
+@theme {
+  /* Typography */
+    --font-poppins: 'Poppins', sans-serif;
+
+  /* Primary Colors */
+    --color-red-primary: hsl(0, 78%, 62%);
+    --color-cyan-primary: hsl(180, 62%, 55%);
+    --color-orange-primary: hsl(34, 97%, 64%);
+    --color-blue-primary: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+    --color-neutral-dark: hsl(234, 12%, 34%);
+    --color-neutral-grayish: hsl(212, 6%, 44%);
+    --color-neutral-light: hsl(0, 0%, 98%);
+}
